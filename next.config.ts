@@ -25,9 +25,6 @@ const nextConfig: NextConfig = {
   output: 'export', // Statik dosyalar oluşturur
   basePath: '/su-kalitesi-web', // https://kullanici.github.io/repo-adiniz
   trailingSlash: true, // URL sonunda / olması için
-  images: {
-    unoptimized: true, // GitHub Pages'te resim optimizasyonu için gerekli
-  },
 };
 
 export default nextConfig;
