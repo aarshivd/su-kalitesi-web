@@ -12,14 +12,14 @@ const supabaseHost = (() => {
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  images: {
-    remotePatterns: supabaseHost
-      ? [{ protocol: "https", hostname: supabaseHost }]
-      : [],
-  },
-  turbopack: {
-    root: __dirname,
-  },
+  // images: {
+  //   remotePatterns: supabaseHost
+  //     ? [{ protocol: "https", hostname: supabaseHost }]
+  //     : [],
+  // },
+  // turbopack: {
+  //   root: __dirname,
+  // },
 
   // bu kısım çalışmazsa sil
   output: 'export', // Statik dosyalar oluşturur
